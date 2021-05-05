@@ -40,12 +40,5 @@ class  webgisSpider(scrapy.Spider):
         yield tabledf.to_excel('tabeljabar.xlsx', sheet_name='jawabarat', index=False)
 
 
-        
-    
 
-
-
-
-        # for rows in response.xpath('//tbody'):
-        #     for gambar,kota,kelurahan,ksm,namakeg,vol,sat,lat,long,btn in rows: 
-
+#gogonisago
